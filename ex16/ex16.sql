@@ -1,0 +1,1 @@
+select count(*) from film where (date_debut_affiche>='2006-10-30' and date_debut_affiche<'2007-07-28') or (date_fin_affiche>= '2006-10-30' and date_fin_affiche<'1996-07-28') or (concat(year(date_debut_affiche),'-12-24') between date_debut_affiche  AND date_fin_affiche) or (concat(year(date_debut_affiche)+1,'-12-24') between date_debut_affiche  AND date_fin_affiche);
