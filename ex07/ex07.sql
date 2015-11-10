@@ -1,0 +1,1 @@
+select titre, resum from film where titre like '%42%' or resum like '%42%' order by duree_min;

@@ -1,0 +1,1 @@
+select UPPER(fiche_personne.nom), fiche_personne.prenom, abonnement.prix from fiche_personne, abonnement, membre where abonnement.prix>42 and abonnement.id_abo=membre.id_abo and fiche_personne.id_perso=membre.id_fiche_perso order by fiche_personne.nom, fiche_personne.prenom;

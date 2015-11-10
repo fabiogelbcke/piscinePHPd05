@@ -1,0 +1,1 @@
+select film.titre as 'Titre', film.resum as 'Resume', film.annee_prod from film,genre where genre.nom='erotic' and film.id_genre=genre.id_genre order by -annee_prod;
