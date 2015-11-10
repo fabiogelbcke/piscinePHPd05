@@ -1,1 +1,2 @@
-select CONCAT(nom, ' ', prenom, ' ',date(date_naissance)) as 'date de naissance' from fiche_personne where YEAR(date_naissance) = 1989;
+select nom, prenom, date(date_naissance) as 'date de naissance' from fiche_personne where YEAR(date_naissance) = 1932;
+#select CONCAT(nom, ' ', prenom, ' ',date(date_naissance)) as 'date de naissance' from fiche_personne where YEAR(date_naissance) = 1932;
