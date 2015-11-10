@@ -1,0 +1,1 @@
+select SUBSTR(REVERSE(telephone),1, LENGTH(telephone)-1) as enohpelet from distrib where telephone like "05%";
